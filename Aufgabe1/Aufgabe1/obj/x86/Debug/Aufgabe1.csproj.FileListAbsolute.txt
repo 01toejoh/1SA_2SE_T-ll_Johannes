@@ -1,0 +1,7 @@
+H:\Eigene Dokumente\Git\1SA_2SE_Toell_Johannes\Aufgabe1\Aufgabe1\obj\x86\Debug\Aufgabe1.Form1.resources
+H:\Eigene Dokumente\Git\1SA_2SE_Toell_Johannes\Aufgabe1\Aufgabe1\obj\x86\Debug\Aufgabe1.Properties.Resources.resources
+H:\Eigene Dokumente\Git\1SA_2SE_Toell_Johannes\Aufgabe1\Aufgabe1\obj\x86\Debug\Aufgabe1.csproj.GenerateResource.Cache
+H:\Eigene Dokumente\Git\1SA_2SE_Toell_Johannes\Aufgabe1\Aufgabe1\bin\Debug\Aufgabe1.exe
+H:\Eigene Dokumente\Git\1SA_2SE_Toell_Johannes\Aufgabe1\Aufgabe1\bin\Debug\Aufgabe1.pdb
+H:\Eigene Dokumente\Git\1SA_2SE_Toell_Johannes\Aufgabe1\Aufgabe1\obj\x86\Debug\Aufgabe1.exe
+H:\Eigene Dokumente\Git\1SA_2SE_Toell_Johannes\Aufgabe1\Aufgabe1\obj\x86\Debug\Aufgabe1.pdb
