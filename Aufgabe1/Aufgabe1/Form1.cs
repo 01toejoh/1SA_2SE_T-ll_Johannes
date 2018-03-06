@@ -27,6 +27,7 @@ namespace Aufgabe1
                 rtxt_Ausgabe.Text += txt_Tanken.Text + "von" + txt_Tankgröße.Text + "\n";
                 progressBar1.Value = Convert.ToInt32(txt_Tanken.Text);
                 Fahren();
+                btm_erstellen.Enabled = true;
                 
         }
         public void Fahren()
