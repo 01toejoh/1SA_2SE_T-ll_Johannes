@@ -16,26 +16,26 @@ namespace Aufgabe1
         {
             InitializeComponent();
         }
-
+        
         private void btm_erstellen_Click(object sender, EventArgs e)
         {
-            
-
-            
                 Marke();
                 Farbe();
                 rtxt_Ausgabe.Text += txt_PS.Text + "PS\n";
                 rtxt_Ausgabe.Text += txt_Tankgröße.Text + "l\n";
                 rtxt_Ausgabe.Text += txt_Verbrauch.Text + "\n";
-                rtxt_Ausgabe.Text += txt_Tanken.Text + "von" + txt_Tankgröße.Text;
+                rtxt_Ausgabe.Text += txt_Tanken.Text + "von" + txt_Tankgröße.Text + "\n";
+                progressBar1.Value = Convert.ToInt32(txt_Tanken.Text);
+                Fahren();
                 
-            
         }
-
-            public void Tanken()
-            {
-                
-            }
+        public void Fahren()
+        {
+            int ver = Convert.ToInt32(txt_Verbrauch.Text);
+            int tan = Convert.ToInt32(txt_Tanken.Text);
+            int erg = ver * tan;
+            rtxt_Ausgabe.Text += erg;
+        }
 
             public void Marke()
             {
