@@ -19,13 +19,23 @@ namespace Aufgabe1
 
         private void btm_erstellen_Click(object sender, EventArgs e)
         {
-            Marke();
-            Farbe();
-            rtxt_Ausgabe.Text += txt_PS.Text = txt_PS.Text + "\n";
-            rtxt_Ausgabe.Text += txt_Tankgröße.Text + "\n";
-            rtxt_Ausgabe.Text += txt_Verbrauch.Text + "\n";
+            
+
+            
+                Marke();
+                Farbe();
+                rtxt_Ausgabe.Text += txt_PS.Text + "PS\n";
+                rtxt_Ausgabe.Text += txt_Tankgröße.Text + "l\n";
+                rtxt_Ausgabe.Text += txt_Verbrauch.Text + "\n";
+                rtxt_Ausgabe.Text += txt_Tanken.Text + "von" + txt_Tankgröße.Text;
+                
+            
         }
 
+            public void Tanken()
+            {
+                
+            }
 
             public void Marke()
             {

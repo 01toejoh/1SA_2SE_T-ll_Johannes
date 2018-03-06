@@ -35,6 +35,7 @@
             this.txt_Verbrauch = new System.Windows.Forms.TextBox();
             this.btm_erstellen = new System.Windows.Forms.Button();
             this.rtxt_Ausgabe = new System.Windows.Forms.RichTextBox();
+            this.txt_Tanken = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // cmb_Marke
@@ -107,11 +108,19 @@
             this.rtxt_Ausgabe.TabIndex = 9;
             this.rtxt_Ausgabe.Text = "";
             // 
+            // txt_Tanken
+            // 
+            this.txt_Tanken.Location = new System.Drawing.Point(12, 148);
+            this.txt_Tanken.Name = "txt_Tanken";
+            this.txt_Tanken.Size = new System.Drawing.Size(100, 20);
+            this.txt_Tanken.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.txt_Tanken);
             this.Controls.Add(this.rtxt_Ausgabe);
             this.Controls.Add(this.btm_erstellen);
             this.Controls.Add(this.txt_Verbrauch);
@@ -135,6 +144,7 @@
         private System.Windows.Forms.TextBox txt_Verbrauch;
         private System.Windows.Forms.Button btm_erstellen;
         private System.Windows.Forms.RichTextBox rtxt_Ausgabe;
+        private System.Windows.Forms.TextBox txt_Tanken;
     }
 }
 
