@@ -19,8 +19,11 @@ namespace Aufgabe1
 
         private void btm_erstellen_Click(object sender, EventArgs e)
         {
-            //Auto Neuauto = new Auto();
             Marke();
+            Farbe();
+            rtxt_Ausgabe.Text += txt_PS.Text = txt_PS.Text + "\n";
+            rtxt_Ausgabe.Text += txt_Tankgröße.Text + "\n";
+            rtxt_Ausgabe.Text += txt_Verbrauch.Text + "\n";
         }
 
 
@@ -29,64 +32,61 @@ namespace Aufgabe1
                 
                 if (cmb_Marke.Text == "BMW")
                 {
-                    rtxt_Ausgabe.Text = "BMW";
+                    rtxt_Ausgabe.Text += "BMW \n";
                 }
                 else if (cmb_Marke.Text == "Porsche")
                 {
-                    rtxt_Ausgabe.Text = "Porsche";
+                    rtxt_Ausgabe.Text += "Porsche \n";
                 }
                 else if (cmb_Marke.Text == "Ferrari")
                 {
-                    rtxt_Ausgabe.Text = "Ferrari";
+                    rtxt_Ausgabe.Text += "Ferrari \n";
                 }
                 else if (cmb_Marke.Text == "VW")
                 {
-                    rtxt_Ausgabe.Text = "VW";
+                    rtxt_Ausgabe.Text += "VW \n";
                 }
-                else
+                else if (cmb_Marke.Text == "Audi")
                 {
-                    rtxt_Ausgabe.Text = "Audi";
+                    rtxt_Ausgabe.Text += "Audi \n";
                 }
                 
             }
             public void Farbe()
             {
-                if (cmb_Marke.Text == "Braun")
+                if (cmb_Farbe.Text == "Braun")
                 {
-                    rtxt_Ausgabe.Text = "Braun";
+                    rtxt_Ausgabe.Text += "Braun \n";
                 }
-                else if (cmb_Marke.Text == "Rot")
+                else if (cmb_Farbe.Text == "Rot")
                 {
-                    rtxt_Ausgabe.Text = "Rot";
+                    rtxt_Ausgabe.Text += "Rot \n";
                 }
-                else if (cmb_Marke.Text == "Weiß")
+                else if (cmb_Farbe.Text == "Weiß")
                 {
-                    rtxt_Ausgabe.Text = "Weiß";
+                    rtxt_Ausgabe.Text += "Weiß \n";
                 }
-                else if (cmb_Marke.Text == "Schwarz")
+                else if (cmb_Farbe.Text == "Schwarz")
                 {
-                    rtxt_Ausgabe.Text = "Schwarz";
+                    rtxt_Ausgabe.Text += "Schwarz \n";
                 }
-                else if (cmb_Marke.Text == "Grün")
+                else if (cmb_Farbe.Text == "Grün")
                 {
-                    rtxt_Ausgabe.Text = "Grün";
+                    rtxt_Ausgabe.Text += "Grün \n";
                 }
-                else if (cmb_Marke.Text == "Blau")
+                else if (cmb_Farbe.Text == "Blau")
                 {
-                    rtxt_Ausgabe.Text = "Blau";
+                    rtxt_Ausgabe.Text += "Blau \n";
                 }
-                else if (cmb_Marke.Text == "Gelb")
+                else if (cmb_Farbe.Text == "Gelb")
                 {
-                    rtxt_Ausgabe.Text = "Gelb";
+                    rtxt_Ausgabe.Text += "Gelb \n";
                 }
-                else if (cmb_Marke.Text == "Grau")
+                else if (cmb_Farbe.Text == "Grau")
                 {
-                    rtxt_Ausgabe.Text = "Grau";
+                    rtxt_Ausgabe.Text += "Grau \n";
                 }
-                else
-                {
-                    rtxt_Ausgabe.Text = "Audi";
-                }
+                
                 
             }
         
